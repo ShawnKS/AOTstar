@@ -1,0 +1,16 @@
+# Core numerical and utility dependencies
+numpy>=1.26,<2
+pandas>=2.0
+PyYAML>=6.0
+tqdm>=4.64
+six>=1.16
+
+# Chemistry and retrosynthesis tooling
+rdkit>=2023.9.6
+rdchiral>=1.1.0
+syntheseus>=0.7.1
+PyTDC>=1.1.15
+
+# OpenAI-compatible LLM client
+openai>=1.0.0
+httpx>=0.24.0

@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Local data and generated artifacts
+dataset
+dataset/
+datasets
+datasets/
+output/
+outputs/
+runs/
+logs/
+repo_validation/
+cache/
+*.log
+*.out
+*.err
+*.tmp
+
+# Heavy chemistry artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.pkl.gz
+!oracle/fpscores.pkl
+!scscore/utils/SA_Score/fpscores.pkl.gz
+*.shelve
+*.dat
+*.dir
+*.bak
+
+# Notebook checkpoints and editor files
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
