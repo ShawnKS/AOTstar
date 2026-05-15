@@ -50,8 +50,8 @@ AOT* addresses this challenge by integrating three components into a single sear
 ## Installation
 
 ```bash
-git clone https://github.com/ShawnKS/AOTstar_dev.git
-cd AOTstar_dev
+git clone https://github.com/ShawnKS/AOTstar.git
+cd AOTstar
 conda create -n aotstar python=3.10
 conda activate aotstar
 ```
